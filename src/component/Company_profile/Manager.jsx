@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import AddManager from '../companyprofile/Add/AddManager'
+import Add_Manager from './Add_Buttons/Add_Manager';
 
 const Manager=()=> {
     return (
@@ -25,7 +25,8 @@ const Manager=()=> {
            </div>
          </div>
          </div>
-         <AddManager/><br></br>
+         <Add_Manager/>
+         <br></br>
       
 
         </div>

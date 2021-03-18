@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import AddDepartment from '../companyprofile/Add/AddDepartment';
+import Add_Department from './Add_Buttons/Add_Department';
+
 
 const Department=()=>
 {
@@ -25,7 +26,7 @@ const Department=()=>
            </div>
          {/* </div>
          </div> */}
-         <AddDepartment/>
+         <Add_Department/>
           <br/>
         </div>
         </>

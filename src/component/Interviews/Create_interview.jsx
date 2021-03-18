@@ -7,8 +7,8 @@ import StepContent from '@material-ui/core/StepContent';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import './Createinter.css';
-import Step1 from './STEPS/Step1';
+import Step1 from './Steps/Step1'
+import './interviews.css'
 
 const useStyles = makeStyles((theme) => ({
 root: {

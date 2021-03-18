@@ -1,9 +1,8 @@
 import React from 'react'
-import Field from './Field'
+import Company_information from './Company_information'
 import Department from './Department'
+import JobTitle from './JobTitle'
 import Manager from './Manager'
-import Jobtitle from './Jobtitle'
-import  '../index.css';
 
 const Company_profile_form=()=> {
     return (
@@ -12,10 +11,10 @@ const Company_profile_form=()=> {
         <div className="header2">
         <h4>Comapany Information</h4>
         </div>
-            <Field/>
+            <Company_information/>
             <Department/>
             <Manager/>
-            <Jobtitle/>
+            <JobTitle/>
             </div>
 
         </>
