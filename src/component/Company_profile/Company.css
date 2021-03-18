@@ -64,7 +64,7 @@ background-blend-mode:darken;
       width: 1050px;
      margin-top: -14px;
       overflow: hidden;
-      background-color:#38d39f;
+      background-color:#63c1c5;
       font-family: 'Dancing Script', cursive;
       justify-content: center;
       align-items: center;
@@ -145,10 +145,11 @@ background-blend-mode:darken;
       display: block;
       width: 100%;
       overflow-x: auto;
-      height:30px;
+      height:25px;
       max-width: 100%;
       margin-bottom: 1rem;
-      background-color:#38d39f;
+      color: white;
+      background-color:black;
     }
     
 .closeicon{
