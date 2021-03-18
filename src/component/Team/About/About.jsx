@@ -2,7 +2,7 @@ import React from 'react'
 import img1 from '../../img/About/inter.png'
 import img2 from '../../img/About/admin.png'
 import '../About/about.css'
-import Contact from '../Contact/Contact'
+
 
 function About() {
     return (
@@ -49,7 +49,7 @@ function About() {
      </div> 
 
     
-<Contact/>
+
       </>
     )
 }
