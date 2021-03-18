@@ -1,11 +1,15 @@
-import AddDepartment from './component/AddDepartment';
-import CompanyProfile from './component/CompanyProfile';
+
+import Create_interview from './component/Interviews/Create_interview'
+import Candidate_details from './component/Interviews/Candidate_details';
+import './component/Interviews/Interviews.css';
+
 
 function App() {
   return (
    <>
-   <AddDepartment/>
-   {/* <CompanyProfile/> */}
+      <Create_interview/>
+      <Candidate_details/>
+   
    </>
   );
 }
