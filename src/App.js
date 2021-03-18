@@ -1,11 +1,10 @@
-import AddDepartment from './component/AddDepartment';
-import CompanyProfile from './component/CompanyProfile';
+
+import Company_Profile_page from './component/Company_profile/Company_Profile_page';
 
 function App() {
   return (
    <>
-   <AddDepartment/>
-   {/* <CompanyProfile/> */}
+   <Company_Profile_page/>
    </>
   );
 }

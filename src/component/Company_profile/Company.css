@@ -38,7 +38,7 @@ background-blend-mode:darken;
       bottom: 0;
       height:50px;
       width: 100%;
-      background-color:#38d39f;
+      background-color:#2ea3d1;
       font-family: 'Dancing Script', cursive;
       color:black;
       text-align: center;
@@ -48,7 +48,7 @@ background-blend-mode:darken;
     .header {
       height:90px;
       overflow: hidden;
-      background-color:#38d39f;
+      background-color:#0b96d6;
       font-family: 'Dancing Script', cursive;
       padding: 20px 10px;
       display: flex;
@@ -64,7 +64,7 @@ background-blend-mode:darken;
       width: 1050px;
      margin-top: -14px;
       overflow: hidden;
-      background-color:#38d39f;
+      background-color:#63c1c5;
       font-family: 'Dancing Script', cursive;
       justify-content: center;
       align-items: center;
@@ -142,7 +142,7 @@ background-blend-mode:darken;
       width: 100%;
       max-width: 100%;
       margin-bottom: 1rem;
-      background-color:#38d39f;
+      background-color:#0b81af;
     }
     
 .closeicon{
@@ -299,4 +299,8 @@ background-blend-mode:darken;
    font-size:35px;
    font-display: center;
    background-color:red;
+ }
+ .dialog_input{
+     width: 350px;
+     margin-top: 100px;
  }
