@@ -1,11 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-<<<<<<< HEAD:src/component/Company_profile/Department.jsx
-import Add_Department from './Add_Buttons/Add_Department';
-=======
 import AddDepartment from './Addbuttons/AddDepartment';
 
->>>>>>> e9207bfa855188ca9ff110f3c445ba5268807bca:src/component/Companyprofile/Department.jsx
 
 const Department=()=>
 {
@@ -27,14 +23,8 @@ const Department=()=>
              </thead>
              </table>
            </div>
-<<<<<<< HEAD:src/component/Company_profile/Department.jsx
-         {/* </div>
-         </div> */}
-         <Add_Department/>
-=======
         
          <AddDepartment/>
->>>>>>> e9207bfa855188ca9ff110f3c445ba5268807bca:src/component/Companyprofile/Department.jsx
           <br/>
         </div>
         </>
