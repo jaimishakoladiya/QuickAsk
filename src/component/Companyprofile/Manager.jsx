@@ -25,7 +25,7 @@ const Manager=()=> {
            </div>
          </div>
          </div>
-         <Add_Manager/><br></br>
+         <AddManager/><br></br>
       
 
         </div>

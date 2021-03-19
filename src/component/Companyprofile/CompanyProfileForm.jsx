@@ -6,7 +6,7 @@ import Manager from './Manager'
 import JobTitle from './JobTitle'
 import  '../Companyprofile/Company.css';
 
-const Company_profile_form=()=> {
+const CompanyProfileForm=()=> {
     return (
         <>
          <div className="card0">
@@ -23,4 +23,4 @@ const Company_profile_form=()=> {
     )
 }
 
-export default Company_profile_form
+export default CompanyProfileForm

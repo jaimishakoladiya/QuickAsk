@@ -25,7 +25,7 @@ const Department=()=>
            </div>
          </div>
          </div>
-         <Add_Department/>
+         <AddDepartment/>
           <br/>
         </div>
         </>

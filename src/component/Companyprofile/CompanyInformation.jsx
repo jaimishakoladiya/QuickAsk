@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 
 
 
-const Company_information=()=> {
+const CompanyInformation=()=> {
     const field1={ margin:"30px",
     marginTop:"50px",
         }
@@ -64,5 +64,5 @@ const Company_information=()=> {
     )
 }
 
-export default Company_information
+export default CompanyInformation
 

@@ -1,7 +1,7 @@
 import React from 'react'
-import Company_profile_form from './Company_profile_form'
+import CompanyProfileForm from './CompanyProfileForm'
 import './Company.css';
-function Company_Profile_page() {
+function CompanyProfilePage() {
     return (
         <div>
             <Company_profile_form/>
@@ -9,4 +9,4 @@ function Company_Profile_page() {
     )
 }
 
-export default Company_Profile_page
+export default CompanyProfilePage
