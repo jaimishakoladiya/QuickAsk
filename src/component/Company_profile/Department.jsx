@@ -10,8 +10,7 @@ const Department=()=>
         <div className="card1">
           <h5 className="title-font">Department</h5>
           
-         {/* <div className="row">
-         <div className="col-12"> */}
+         
            <div className="table">
            <table>
              <thead>
@@ -24,8 +23,7 @@ const Department=()=>
              </thead>
              </table>
            </div>
-         {/* </div>
-         </div> */}
+        
          <Add_Department/>
           <br/>
         </div>
