@@ -2,12 +2,13 @@ import React from 'react';
 import CandidateDetails from './CandidateDetails';
 import CreateInterview from './CreateInterview';
 
-const App = ()=>{
+const AppD = ()=>{
     return(<>
-             <CandidateDetails/>
              <CreateInterview/>
+             <CandidateDetails/>
+            
         </>
     );
 }
 
-export default App;
+export default AppD;

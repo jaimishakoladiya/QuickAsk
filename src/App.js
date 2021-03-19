@@ -2,7 +2,7 @@
 // import Home from './component/Home/Home'
 
 import Team from './component/Team/Team'
-import App from './component/Interviews/App'
+import AppD from './component/Interviews/AppD'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
    {/* <Home/> */}
   {/* <Company_Profile_page/> */}
    {/* <Team/> */}
-  <App/>
+  <AppD/>
    </>
   );
 }
