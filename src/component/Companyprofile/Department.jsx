@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import Add_Department from './Add_Buttons/Add_Department';
+import AddDepartment from './Addbuttons/AddDepartment';
 
 
 const Department=()=>
@@ -24,7 +24,7 @@ const Department=()=>
              </table>
            </div>
         
-         <Add_Department/>
+         <AddDepartment/>
           <br/>
         </div>
         </>

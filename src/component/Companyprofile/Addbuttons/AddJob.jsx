@@ -18,7 +18,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} />;
 });
 
-export default function Add_Job() {
+export default function AddJob() {
 const [open, setOpen] = React.useState(false);
 const maxWidth='md'
 const handleClickOpen = () => {
