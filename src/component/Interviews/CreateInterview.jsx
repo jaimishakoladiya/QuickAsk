@@ -51,7 +51,7 @@ return 'Unknown step';
 }
 }
 
-export default function Create_interview() {
+export default function CreateInterview() {
 const classes = useStyles();
 const [activeStep, setActiveStep] = React.useState(0);
 const steps = getSteps();

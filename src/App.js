@@ -1,6 +1,6 @@
 
-import Create_interview from './component/Interviews/Create_interview'
-import Candidate_details from './component/Interviews/Candidate_details';
+import CreateInterview from './component/Interviews/CreateInterview'
+import CandidateDetails from './component/Interviews/CandidateDetails';
 
 import './component/Interviews/Interviews.css';
 
@@ -8,8 +8,8 @@ import './component/Interviews/Interviews.css';
 function App() {
   return (
    <>
-      <Create_interview/>
-      <Candidate_details/>
+      <CreateInterview/>
+      <CandidateDetails/>
       
    
    </>
