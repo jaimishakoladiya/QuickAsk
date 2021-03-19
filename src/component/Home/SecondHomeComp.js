@@ -2,7 +2,7 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid';
 import img2 from '../img/About/homeinter.png'
 
-function Home_second_com() {
+function SecondHomeComp() {
     return (
         <>
             <Grid container spacing={0}>
@@ -38,4 +38,4 @@ function Home_second_com() {
     )
 }
 
-export default Home_second_com
+export default SecondHomeComp
