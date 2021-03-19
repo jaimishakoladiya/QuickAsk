@@ -3,13 +3,15 @@ import CompanyInformation from './CompanyInformation'
 import Department from './Department'
 import JobTitle from './JobTitle'
 import Manager from './Manager'
+import JobTitle from './JobTitle'
+import  '../Companyprofile/Company.css';
 
-const CompanyProfileForm=()=> {
+const Company_profile_form=()=> {
     return (
         <>
          <div className="card0">
         <div className="header2">
-        <h4>Comapany Information</h4>
+        <h4 className="company-info-title">Comapany Information</h4>
         </div>
             <CompanyInformation/>
             <Department/>
@@ -21,4 +23,4 @@ const CompanyProfileForm=()=> {
     )
 }
 
-export default CompanyProfileForm
+export default Company_profile_form

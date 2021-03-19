@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import AddJob from './Addbuttons/AddJob';
+import AddJob from './AddButtons/AddJob';
 
 const JobTitle=()=> {
     return (

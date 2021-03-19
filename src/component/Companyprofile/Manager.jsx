@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import AddManager from './Addbuttons/AddManager';
+import Add_Manager from './Add_Buttons/Add_Manager'
 
 const Manager=()=> {
     return (
@@ -15,19 +15,18 @@ const Manager=()=> {
              <thead>
                <tr>
                <th style={{paddingLeft:"10px"}}>Name</th>
-               <th style={{paddingLeft:"113.3px"}}>Email</th>
-               <th style={{paddingLeft:"113.3px"}}>Status</th>
-               <th style={{paddingLeft:"113.3px"}}>Date</th>
-               <th style={{paddingLeft:"113.3px"}}>Deleted</th>
-               <th style={{paddingLeft:"113.6px"}}>Actions</th>
+               <th style={{paddingLeft:"134px"}}>Email</th>
+               <th style={{paddingLeft:"134px"}}>Status</th>
+               <th style={{paddingLeft:"134px"}}>Date</th>
+               <th style={{paddingLeft:"134px"}}>Deleted</th>
+               <th style={{paddingLeft:"114px"}}>Actions</th>
                </tr>
               
              </thead>
            </div>
          </div>
          </div>
-         <AddManager/>
-         <br></br>
+         <Add_Manager/><br></br>
       
 
         </div>

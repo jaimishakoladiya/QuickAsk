@@ -20,7 +20,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   });
 
 
-export default function AddDepartment() {
+export default function Add_Department() {
 const [open, setOpen] = React.useState(false);
 
 const handleClickOpen = () => {
