@@ -23,7 +23,7 @@ return (
 </div>
 <div className="inputbox">
 <textarea name="" required></textarea>
-<span>Comment...</span>
+<span>Comment..</span>
 </div>
 <div className="inputbox">
 <input type="submit" value="Submit" name=""/>
