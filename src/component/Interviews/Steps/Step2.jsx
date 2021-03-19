@@ -6,6 +6,7 @@ import Typography from "@material-ui/core/Typography";
 import Paper from "@material-ui/core/Paper";
 import Divider from "@material-ui/core/Divider";
 import Grid from "@material-ui/core/Grid";
+import EmailIcon from '@material-ui/icons/Email';
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -41,7 +42,7 @@ const Step2 = () => {
               />
             </Grid>
             <Grid item xs={4} sm={4} xl={4} md={4} className="d-flex">
-              <PersonIcon className="material-person-icon" />
+              <EmailIcon className="material-person-icon" />
               <TextField
                 variant="filled"
                 id="outlined-basic"
