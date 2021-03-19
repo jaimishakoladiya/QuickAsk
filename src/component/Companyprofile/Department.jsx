@@ -1,6 +1,10 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
 import Add_Department from './Add_Buttons/Add_Department';
+<<<<<<< HEAD:src/component/Company_profile/Department.jsx
+=======
+
+>>>>>>> 5dffd15a802b16c26a85d4230c540b8be15f512c:src/component/Companyprofile/Department.jsx
 
 const Department=()=>
 {
@@ -9,8 +13,12 @@ const Department=()=>
         <div className="card1">
           <h5 className="title-font">Department</h5>
           
+<<<<<<< HEAD:src/component/Company_profile/Department.jsx
          <div className="row">
          <div className="col-12">
+=======
+         
+>>>>>>> 5dffd15a802b16c26a85d4230c540b8be15f512c:src/component/Companyprofile/Department.jsx
            <div className="table">
            <table>
              <thead>
@@ -23,8 +31,12 @@ const Department=()=>
              </thead>
              </table>
            </div>
+<<<<<<< HEAD:src/component/Company_profile/Department.jsx
          </div>
          </div>
+=======
+        
+>>>>>>> 5dffd15a802b16c26a85d4230c540b8be15f512c:src/component/Companyprofile/Department.jsx
          <Add_Department/>
           <br/>
         </div>

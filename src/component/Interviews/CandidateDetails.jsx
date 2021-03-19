@@ -6,8 +6,7 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-
-import './interview.css';
+import './interviews.css'
 const Candidate_details = () =>{
   const style={
     fontSize : "17px",
