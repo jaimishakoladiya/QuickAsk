@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import AddJob from '../companyprofile/Add/AddJob';
+import Add_Job from './Add_Buttons/Add_Job';
+
 
 const JobTitle=()=> {
     return (
@@ -21,7 +22,7 @@ const JobTitle=()=> {
            </div>
          </div>
          </div>
-         <AddJob/><br/>
+         <Add_Job/><br/>
         </div>
       
         </>
