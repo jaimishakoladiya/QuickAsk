@@ -11,7 +11,7 @@ import FormControl from '@material-ui/core/FormControl';
 import NativeSelect from '@material-ui/core/NativeSelect';
 import InputLabel from '@material-ui/core/InputLabel';
 
-export default function Add_Department() {
+export default function AddDepartment() {
 const [open, setOpen] = React.useState(false);
 
 const handleClickOpen = () => {
