@@ -21,7 +21,7 @@ function About() {
 
       <div className="text-border" ></div><br></br>
 
-     <h5 className="red-title">we are just getting started!!yahhhooo</h5><br></br>
+     <h5 className="red-title">we are just getting started!!</h5><br></br>
      <p className="inner-text">QuickAsk is a new startup that has every intention of making your life easier.<br></br>
       The idea came about after Founder, Leo Gonzalez found himself awake at all <br></br>
       hours in order to appease our new Global Market and Tech Lifestyle</p><br></br><br></br>
