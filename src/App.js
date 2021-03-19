@@ -1,17 +1,26 @@
-// import Company_Profile_page from './component/Company_profile/Company_Profile_page'
-// import Home from './component/Home/Home'
+//import CompanyProfilePage from './component/Companyprofile/CompanyProfilePage'
+import Home from './component/Home/Home'
+import {BrowserRouter as Router,Switch,Route,Link} from 'react-router-dom';
+import Team from './component/Team/Team'
 
 // import Team from './component/Team/Team'
-import CompanyProfilePage from './component/Companyprofile/CompanyProfilePage';
-// import AppD from './component/Interviews/AppD'
+import AppD from './component/Interviews/AppD'
+import Navbar  from './component/Navbar/Navbar'
 
 function App() {
   return (
    <>
-   {/* <Home/> */}
- <CompanyProfilePage/>
-   {/* <Team/> */}
-  {/* <AppD/> */}
+   {/* <Router>
+     <Switch>
+     <Navbar/>
+     </Switch>
+   </Router> */}
+
+    <Home/> 
+  {/* <CompanyProfilePage/>  */}
+   {/* <Team/>  */}
+  {/* <AppD/>  */}
+ 
    </>
   );
 }

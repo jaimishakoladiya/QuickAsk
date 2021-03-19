@@ -4,7 +4,7 @@ import '../Home/home.css'
 
 import img1 from '../img/About/Admininterview.png'
 
-import  SecondHomeComp from './ SecondHomeComp'
+import  SecondHomeComp from './SecondHomeComp'
 
 function Home() {
     return (
