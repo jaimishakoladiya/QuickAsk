@@ -6,7 +6,11 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
+<<<<<<< HEAD:src/component/Interviews/Candidate_details.jsx
 import './Interviews.css';
+=======
+import './interviews.css'
+>>>>>>> e9207bfa855188ca9ff110f3c445ba5268807bca:src/component/Interviews/CandidateDetails.jsx
 const Candidate_details = () =>{
   const style={
     fontSize : "17px",

@@ -1,6 +1,10 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
+<<<<<<< HEAD:src/component/Company_profile/Manager.jsx
 import Add_Manager from './Add_Buttons/Add_Manager'
+=======
+import AddManager from './Addbuttons/AddManager';
+>>>>>>> e9207bfa855188ca9ff110f3c445ba5268807bca:src/component/Companyprofile/Manager.jsx
 
 const Manager=()=> {
     return (
@@ -25,7 +29,12 @@ const Manager=()=> {
            </div>
          </div>
          </div>
+<<<<<<< HEAD:src/component/Company_profile/Manager.jsx
          <Add_Manager/><br></br>
+=======
+         <AddManager/>
+         <br></br>
+>>>>>>> e9207bfa855188ca9ff110f3c445ba5268807bca:src/component/Companyprofile/Manager.jsx
       
 
         </div>

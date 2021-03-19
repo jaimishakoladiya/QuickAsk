@@ -1,7 +1,11 @@
 import React from 'react'
 import Button from '@material-ui/core/Button';
+<<<<<<< HEAD:src/component/Company_profile/JobTitle.jsx
 import Add_Job from './Add_Buttons/Add_Job';
 
+=======
+import AddJob from './Addbuttons/AddJob';
+>>>>>>> e9207bfa855188ca9ff110f3c445ba5268807bca:src/component/Companyprofile/JobTitle.jsx
 
 const JobTitle=()=> {
     return (
@@ -22,7 +26,13 @@ const JobTitle=()=> {
            </div>
          </div>
          </div>
+<<<<<<< HEAD:src/component/Company_profile/JobTitle.jsx
          <Add_Job/><br/>
+=======
+         <AddJob/>
+
+         <br/>
+>>>>>>> e9207bfa855188ca9ff110f3c445ba5268807bca:src/component/Companyprofile/JobTitle.jsx
         </div>
       
         </>

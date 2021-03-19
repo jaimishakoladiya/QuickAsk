@@ -18,7 +18,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="down" ref={ref} {...props} />;
 });
 
-export default function Add_Job() {
+export default function AddJob() {
 const [open, setOpen] = React.useState(false);
 const maxWidth='md'
 const handleClickOpen = () => {
@@ -34,9 +34,7 @@ return (
 <Button style={{marginBottom:"25px"}} variant="contained" color="secondary"
  onClick={handleClickOpen}>Add Job
 </Button><br/>
-{/* <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-Open form dialog
-</Button> */}
+
 <Dialog open={open} 
 onClose={handleClose} 
 aria-labelledby="form-dialog-title" 
@@ -64,7 +62,7 @@ fullWidth={true}
        
         </Grid>
         <Grid item xs={6}>
-        <TextField style={{width:'350px' ,marginTop:'-20px'}} placeholder="Job Title"  id="standard-basic"  variant="standard" />
+        <TextField className="dialog_input"  placeholder="Job Title"  id="standard-basic"  variant="standard" />
         </Grid>
         <Grid item xs={6}>
         <FormControl style={{marginTop:"-20px",width:'350px'}} >
