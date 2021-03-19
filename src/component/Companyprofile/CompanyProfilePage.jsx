@@ -1,12 +1,12 @@
 import React from 'react'
-import CompanyProfileForm from './CompanyProfileForm'
+import Company_profile_form from './Company_profile_form'
 import './Company.css';
-function CompanyProfilePage() {
+function Company_Profile_page() {
     return (
         <div>
-            <CompanyProfileForm/>
+            <Company_profile_form/>
         </div>
     )
 }
 
-export default CompanyProfilePage
+export default Company_Profile_page
