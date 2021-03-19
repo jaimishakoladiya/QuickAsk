@@ -6,9 +6,8 @@ import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-
-import './interview.css';
-const Candidate_details = () =>{
+import './Interviews.css';
+const CandidateDetails = () =>{
   const style={
     fontSize : "17px",
     fontWeight:"bold"
@@ -48,6 +47,6 @@ const Candidate_details = () =>{
        <h1 className="NDFound">No Data Found</h1>
      </div>
      </>
-    )
+    );
 }
-export default Candidate_details;
+export default CandidateDetails;

@@ -7,8 +7,9 @@ import StepContent from '@material-ui/core/StepContent';
 import Button from '@material-ui/core/Button';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import './Createinter.css';
-import Step1 from './STEPS/Step1';
+import './Interviews.css'
+import Step1 from './Steps/Step1';
+import Step2 from './Steps/Step2';
 
 const useStyles = makeStyles((theme) => ({
 root: {
@@ -39,7 +40,7 @@ switch (step) {
 case 0:
 return <Step1/>
 case 1:
-return 'An ad group contains one or more ads which target a shared set of keywords.';
+return <Step2/>
 case 2:
 return `Try out different ad text to see what brings in the most customers,
 and learn how to enhance your ads using features like ad extensions.
@@ -50,7 +51,7 @@ return 'Unknown step';
 }
 }
 
-export default function Create_interview() {
+export default function CreateInterview() {
 const classes = useStyles();
 const [activeStep, setActiveStep] = React.useState(0);
 const steps = getSteps();
@@ -82,14 +83,14 @@ return (
 <div className={classes.actionsContainer}>
 
 <div>
-<Button style={{backgroundColor:"red" }}
+<Button style={{ color:"black", backgroundColor:"gray" }}
 disabled={activeStep === 0}
 onClick={handleBack}
 className={classes.button}
 >
 Back
 </Button>
-<Button style={{marginRight : '51px'}}
+<Button style={{marginRight : '50px'}}
 variant="contained"
 color="primary"
 onClick={handleNext}
