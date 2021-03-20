@@ -1,6 +1,6 @@
 import React from 'react'
-import About from './About/About'
-import Contact from './Contact/Contact'
+import About from './about/About'
+import Contact from './contact/Contact'
 
 const Team=()=> {
     return (

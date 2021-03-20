@@ -3,7 +3,7 @@ import CompanyInformation from './CompanyInformation'
 import Department from './Department'
 import JobTitle from './JobTitle'
 import Manager from './Manager'
-import  '../Companyprofile/Company.css';
+import  '../companyprofile/Company.css';
 
 const CompanyProfileForm=()=> {
     return (

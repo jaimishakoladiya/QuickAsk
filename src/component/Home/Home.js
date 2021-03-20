@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '@material-ui/core/Button';
 import './home.css'
 
-import img1 from '../img/About/Admininterview.png'
+import img1 from '../img/about/Admininterview.png'
 
 import  SecondHomeComp from './SecondHomeComp'
 

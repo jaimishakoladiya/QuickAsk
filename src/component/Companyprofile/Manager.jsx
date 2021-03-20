@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Button from '@material-ui/core/Button';
-import AddManager from './Addbuttons/AddManager'
+import AddManager from './addbuttons/AddManager'
 
 const Manager=()=> {
     return (

@@ -6,7 +6,7 @@
 // import CompanyProfilePage from './component/Companyprofile/CompanyProfilePage'
 // import AppD from './component/Interviews/AppD'
 
-import HomeNavbarRouter from './component/Navbar/HomeNavbarRouter';
+import HomeNavbarRouter from './component/navbar/HomeNavbarRouter';
 
 function App() {
   return (

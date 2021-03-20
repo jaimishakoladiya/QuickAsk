@@ -1,9 +1,9 @@
 import React from "react";
 import {Route,Switch,Redirect} from "react-router-dom";
 import HomeNavbar from './HomeNavbar';
-import About from '../Team/About/About'
-import Home from '../Home/Home';
-import CompanyProfilePage from '../Companyprofile/CompanyProfilePage'
+import About from '../team/About/About'
+import Home from '../home/Home';
+import CompanyProfilePage from '../companyprofile/CompanyProfilePage'
 const HomeNavbarRouter=()=>{
     return (
     <>
