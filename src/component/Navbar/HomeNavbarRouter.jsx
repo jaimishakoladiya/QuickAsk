@@ -10,6 +10,8 @@ const HomeNavbarRouter=()=>{
     <HomeNavbar/>
     <Switch>
     <Route exact path="/" component={Home} />
+
+    <Route exact path="/" component={Home} />
     <Route exact path="/About" component={About} />
     <Route exact path="/CompanyProfilePage" component={CompanyProfilePage} />   
         
