@@ -1,8 +1,11 @@
 import React,{useState} from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink,Link} from 'react-router-dom';
 import ListIcon from '@material-ui/icons/List';
+import './navbar.css'
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
-function Navbarmenu(props) {
+
+
+function Navbar(props) {
   const [isMenu, setisMenu] = useState(false);
   
   const toggleClass = () => {
@@ -26,7 +29,7 @@ function Navbarmenu(props) {
 return(
   <header className="layout__header">
    <NavLink to="/" className="layout__logo">
-     <h1> <img src={}/> </h1>
+     <h1> <img src=""/> </h1>
     </NavLink>
     <nav className="layout__navBar ">
       
@@ -49,7 +52,7 @@ return(
           <NavLink exact activeClassName='is-active' to="/Blog"  className={isSubMenu === true ? 'is-active' : null}>
           Team<ArrowDropDownIcon style={{fontSize:"35px",marginBottom:"-10px"}}/> </NavLink>
           <ul className="sub-menu" >
-            <li><NavLink  exact activeClassName='is-active' to="/Latest" onClick={toggleClass}> AboutUS </NavLink></li>
+            <li><NavLink  exact activeClassName='is-active' to="" onClick={toggleClass}> AboutUS </NavLink></li>
             <li><NavLink  exact activeClassName='is-active' to="/Oldest" onClick={toggleClass}> Contact Us </NavLink></li>
           </ul>
         </li>
@@ -66,4 +69,4 @@ return(
         );
     }
 
-export default Navbarmenu;
+export default Navbar;
