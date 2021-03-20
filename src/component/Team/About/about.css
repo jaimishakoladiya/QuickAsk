@@ -5,17 +5,7 @@
          margin-left: 50px;
          
        }
-       .header {
-        height:90px;
-        overflow: hidden;
-        background-color:#38d39f;
-        font-family: 'Dancing Script', cursive;
-        padding: 20px 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-      }
+     
       .about-img1{
         height: 430px;
         float:right;
@@ -43,7 +33,7 @@ margin-left:100px
         width: 100%;
       }
       
-  .col-8{
+  .about-col-8{
     width:100%;
     float:left;
 }
@@ -57,104 +47,40 @@ line-height: 4px;
 
 
 }
-.text-border
+.about-title-border
 {
     border-bottom:7px solid black;
         margin-right:950px
 }
-.red-title{
+.about-red-title{
     color: red;
     font-size:25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: -1px;
 }
-.inner-text{
+.about-inner-text{
     font-size: 20px;
     font-family: 'DIN';
 
 }
-.footer-title{
+.about-footer-title{
 color:white;
 font-size:60px;
 margin-left:60px;
 margin-top:40px
 }
-.footer-text{
+.about-footer-text{
 
     margin-left: 70px;
     font-size: 25px;
     font-family: 'DIN';
+    margin-top: -60px;
 }
 
 
 /* ========================== */
-       .ttline{
-      
-        
-          left: 0;
-          bottom: 0;
-          height:10px;
-          width: 30%;
-          background-color:black;
-          margin-bottom: 360px;
-          margin-left: 50px;
-          
-       
-       }
-       h5.title-font {
-        font-size: 16pt;
-        line-height: 14pt;
-        font-family: "DIN";
-        margin-bottom: 20px;}
-  
-        
-       .row{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-    }
-       
-  
-  .col-12 {
-      -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-      flex: 0 0 100%;
-      max-width: 100%;
-  }
-  
-  
-  
-  .cbox{
-    font-size: 12pt;
-    font-family: "DIN";
-    text-transform: uppercase;
    
-  }
-  
-  
-  .primaryHeader {
-    background: #38d39f;
-    color: #fff;
-    font-size: 15pt;
-    line-height: 24pt;
-    text-transform: uppercase;
-    text-align: center;
-   height: 50px;
-   padding: 5px;
-    border-bottom: 5px solid #080005;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  }
-  
-
-   .col-4{
-      width:70%;
-      /* float:right; */
-    padding-right: 500px;
-  }
+   
   /* .container{
       width: 1140px;
       margin: 0 auto;
