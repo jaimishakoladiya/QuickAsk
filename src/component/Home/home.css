@@ -20,17 +20,7 @@
      background-color:red;
    }
 
-.header {
- height:90px;
- overflow: hidden;
- background-color:#38d39f;
- font-family: 'Dancing Script', cursive;
- padding: 20px 10px;
- display: flex;
- justify-content: center;
- align-items: center;
- margin-top: 10px;
-}
+
 
 .homefooter {
    
