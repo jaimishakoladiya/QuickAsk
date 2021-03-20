@@ -10,7 +10,7 @@ const Step3 = () =>{
                 <PersonIcon className="material-person-icon" /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="First Name" />
                 <PersonIcon style={{ marginTop: '-13px', marginLeft: '30px', color: 'gray' }} /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="Last Name" />
                 <EmailIcon style={{ marginTop: '-13px', marginLeft: '30px', color: 'gray' }} /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="Email-Id" />
-                 <div className="Add"><Button variant="contained" color="secondary" >ADD</Button></div>
+                 <div className="Add"><Button variant="contained" color="secondary" >ADD button</Button></div>
             </div>
         </div>
 
