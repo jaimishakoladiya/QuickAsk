@@ -1,7 +1,7 @@
 import React from "react";
 import {Route,Switch,Redirect} from "react-router-dom";
 import HomeNavbar from './HomeNavbar';
-import About from '../team/About/About'
+import About from '../team/about/About'
 import Home from '../home/Home';
 import CompanyProfilePage from '../companyprofile/CompanyProfilePage'
 const HomeNavbarRouter=()=>{
