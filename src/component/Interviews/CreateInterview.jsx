@@ -10,6 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import './Interviews.css'
 import Step1 from './Steps/Step1';
 import Step2 from './Steps/Step2';
+import Step3 from './Steps/Step3';
 
 const useStyles = makeStyles((theme) => ({
 root: {
@@ -42,10 +43,7 @@ return <Step1/>
 case 1:
 return <Step2/>
 case 2:
-return `Try out different ad text to see what brings in the most customers,
-and learn how to enhance your ads using features like ad extensions.
-If you run into any problems with your ads, find out how to tell if
-they're running and how to resolve approval issues.`;
+return <Step3/>
 default:
 return 'Unknown step';
 }
