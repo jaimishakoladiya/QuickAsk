@@ -1,13 +1,13 @@
 import React from 'react'
 import img1 from '../../img/About/inter.png'
 import img2 from '../../img/About/admin.png'
-import '../About/about.css'
+import './about.css'
 
 
 function About() {
     return (
       <>
-      <div className="header"></div>
+      
      
       <div className="title">
       <div>
@@ -21,9 +21,9 @@ function About() {
 
       <div className="text-border" ></div><br></br>
 
-     <h5 className="red-title">we are just getting started!!yahhhooo</h5><br></br>
-     <p className="inner-text">QuickAsk is a new startup that has every intention of making your life easier.<br></br>
-      The idea came about after Founder, Leo Gonzalez found himself awake at all <br></br>
+     <h5 className="red-title">we are just getting started</h5><br></br>
+     <p className="inner-text">QuickAsk is a new startup that has every intention of making your life easier.
+      The idea came about after Founder, Leo Gonzalez found himself awake at all 
       hours in order to appease our new Global Market and Tech Lifestyle</p><br></br><br></br>
     
     
