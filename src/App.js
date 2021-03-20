@@ -1,5 +1,7 @@
 
 import Home from './component/home/Home'
+import About from './component/team/about/About'
+import Contact from './component/team/contact/Contact'
 
 
 function App() {
@@ -7,7 +9,9 @@ function App() {
    <>
   
 
-    <Home/>
+    {/* <Home/> */}
+    <About/>
+    {/* <Contact/> */}
    </>
   );
 }
