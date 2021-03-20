@@ -48,7 +48,7 @@ background-blend-mode:darken;
     .header {
       height:90px;
       overflow: hidden;
-      background-color:#0b96d6;
+    /* background-color:#0b96d6; */
       font-family: 'Dancing Script', cursive;
       padding: 20px 10px;
       display: flex;
