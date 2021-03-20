@@ -9,7 +9,7 @@ import  SecondHomeComp from './SecondHomeComp'
 function Home() {
     return (
         <>
-        <div className="header"></div>
+       
         <div className="headtitle">
         <h3 className="home-title">WE</h3>
         <h3 className="home-title" >ON-SCREEN</h3>
