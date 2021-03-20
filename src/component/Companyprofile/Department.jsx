@@ -6,12 +6,12 @@ const Department=()=>
 {
     return(
         <>
-        <div className="card1">
-          <h5 className="title-font">Department</h5>
+        <div className="Department_card1">
+          <h5 className="Department_title-font">Department</h5>
           
-         <div className="row">
-         <div className="col-12">
-           <div className="table">
+         <div className="Department_row">
+         <div className="Department_col-12">
+           <div className="Department_table">
            <table>
              <thead>
                <tr>

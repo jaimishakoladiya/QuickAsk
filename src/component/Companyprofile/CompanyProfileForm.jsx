@@ -8,18 +8,17 @@ import  '../Companyprofile/Company.css';
 const CompanyProfileForm=()=> {
     return (
         <>
-         <div className="card0">
-        <div className="formheader">
-        <h4 className="company-info-title">Comapany Information</h4>
+         <div className="CompanyProfileForm_card0">
+        <div className="CompanyProfileForm_formheader">
+        <h4 className="CompanyProfileForm_company-info-title">Comapany Information</h4>
         </div>
-            <CompanyInformation/>
-            <Department/>
-            <Manager/>
-            <JobTitle/>
-            </div>
+        <CompanyInformation />
+        <Department />
+        <Manager />
+        <JobTitle />
+      </div>
+    </>
+  );
+};
 
-        </>
-    )
-}
-
-export default CompanyProfileForm
+export default CompanyProfileForm;

@@ -5,12 +5,12 @@ import AddJob from './Addbuttons/AddJob';
 const JobTitle=()=> {
     return (
         <>
-              <div className="card1">
-          <h5 className="title-font">Job Title</h5>
+              <div className="JobTitle_card1">
+          <h5 className="JobTitle_title-font">Job Title</h5>
           
-         <div className="row">
-         <div className="col-12">
-           <div className="table">
+         <div className="JobTitle_row">
+         <div className="JobTitle_col-12">
+           <div className="JobTitle_table">
              <thead>
                <tr>
                <th style={{paddingLeft:"10px"}}>Name</th>
