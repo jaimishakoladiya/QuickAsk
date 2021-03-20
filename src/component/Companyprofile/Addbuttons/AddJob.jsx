@@ -48,9 +48,9 @@ export default function AddJob() {
         fullWidth={true}
         maxWidth={maxWidth}
       >
-        <div className="primaryHeader">
+        <div className="AddJob_primaryHeader">
           <h2>Add Job </h2>
-          <div className="closeicon">
+          <div className="AddJob_closeicon">
             <CloseIcon style={{ color: "black" }} onClick={handleClose} />
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function AddJob() {
               </Grid>
               <Grid item xs={6}>
                 <TextField
-                  className="dialog_input"
+                  className="JobTitle_dialog_input"
                   placeholder="Job Title"
                   id="standard-basic"
                   variant="standard"
@@ -88,7 +88,7 @@ export default function AddJob() {
                 <h3 className="">Time Allocated</h3>
               </Grid>
               <Grid item xs={12}>
-                <div className="card1">
+                <div className="AddJob_card1">
                   <TextField
                     style={{ marginLeft: "10px", width: "600px" }}
                     id="standard-basic"

@@ -1,93 +1,89 @@
- 
-
 /* home page csss */
 
-.headtitle{
-    margin-top: 50px;
-     margin-left: 280px;
-     letter-spacing: -1px;
-  
-    
-    
-   }
-  
-   .freebutton
-   {
-     height:60px;
-     width:200px;
-     font-size:35px;
-     font-display: center;
-     background-color:red;
-   }
-
-
-
-.homefooter {
-   
-    left: 0;
-    bottom: 0;
-    height:270px;
-    display:flex;
-    background-color:#38d39f;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color:black;
-    margin-bottom: 50px;
-   
-    width: 100%;
-  }
-  
-  .home-title{
-    font-size:50px;
-    color : #38d39f;
-    font-family: 'DIN';
-    line-height: 3px;
-  }
-  .home-img1{
-height:300px;
-width:380px;
-margin-left:100px
-  }
-  .col-8{
-    width: 100%;
-    float:left;
-}
-.col-4{
-    width:30%;
-    float:right
+.Home_headtitle {
+  margin-top: 50px;
+  margin-left: 280px;
+  letter-spacing: -1px;
 }
 
+.Home_freebutton {
+  height: 60px;
+  width: 200px;
+  font-size: 35px;
+  font-display: center;
+  background-color: red;
+}
+
+.Home_homefooter {
+  left: 0;
+  bottom: 0;
+  height: 270px;
+  display: flex;
+  background-color: #38d39f;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  margin-bottom: 50px;
+
+  width: 100%;
+}
+
+.home-title {
+  font-size: 50px;
+  color: #38d39f;
+  font-family: "DIN";
+  line-height: 3px;
+}
+.home-img1 {
+  height: 300px;
+  width: 380px;
+  margin-left: 100px;
+}
+.Home_col-8 {
+  width: 100%;
+  float: left;
+}
+.col-4 {
+  width: 30%;
+  float: right;
+}
+
+<<<<<<< HEAD
 .home-border{
     border-bottom:7px solid #38d39f ;
     width:450px
+=======
+.home-border {
+  border-bottom: 7px solid #38d39f;
+  width: 450px;
+>>>>>>> 15ce0973754c0e0b8315eb3c95af1c6af625de3f
 }
-.home-text{
+.home-text {
+  color: #000000;
+  font-family: "Helvetica", Sans-serif;
+  font-size: 17px;
+  line-height: 1.4em;
+  letter-spacing: 0px;
+  margin: 0px 0px 29px;
 
- color: #000000;
- font-family: "Helvetica", Sans-serif;
- font-size: 17px;
- line-height: 1.4em;
- letter-spacing: 0px;
-margin: 0px 0px 29px;
+  line-height: 29px;
 
-line-height: 29px;
-
-text-size-adjust: 100%;
-width:350px
-
+  text-size-adjust: 100%;
+  width: 350px;
 }
 
-.advantage{
+.FouthHomeComp_advantage {
   margin: 20px auto;
   margin-bottom: 100px;
- margin-top: 50px; 
- padding: 15px 5px 10px 15px;
- float: center;
- width: 1050px;
- height: 1050px;
-padding: 15px 8px;
-background: #eef5f6;
-position: relative;
-height:auto;
+  margin-top: 50px;
+  padding: 15px 5px 10px 15px;
+  float: center;
+  width: 1050px;
+  height: 1050px;
+  padding: 15px 8px;
+  background: #eef5f6;
+  position: relative;
+  height: auto;
   border-radius: 1px;
-box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
- }
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}

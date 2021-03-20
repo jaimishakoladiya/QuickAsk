@@ -48,7 +48,7 @@ background-blend-mode:darken;
     .header {
       height:90px;
       overflow: hidden;
-      background-color:#0b96d6;
+    /* background-color:#0b96d6; */
       font-family: 'Dancing Script', cursive;
       padding: 20px 10px;
       display: flex;
@@ -59,7 +59,7 @@ background-blend-mode:darken;
     /* .logo{
       background-image: url("onlinelogomaker-030421-1411-2933.png");
     } */
-    .formheader {
+.CompanyProfileForm_formheader {
       height:57px;
       width: 1050px;
      margin-top: -14px;
@@ -74,7 +74,7 @@ background-blend-mode:darken;
     
       
     }
-    .header3 {
+.header3 {
     
       height:11px;
       width: auto;
@@ -109,12 +109,12 @@ background-blend-mode:darken;
     border-radius: 1px;
     box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
     }
-    .company-info-title{
+.CompanyProfileForm_company-info-title{
         font-size:30px;
         font-family: 'DIN';
     }
  
-     .card0{
+.CompanyProfileForm_card0{
       margin: 20px auto;
       margin-bottom: 100px;
      margin-top: 50px; 
@@ -132,16 +132,60 @@ background-blend-mode:darken;
  
      }
      /* department,manager,job box */
-     .card1{
+.Department_card1{
+      padding: 30px 40px 0;
+      background:azure;
+      border-radius: 15px;
+      padding: 20px 50px;
+      height:auto;
+      margin-top: 20px;
+ }
+ .JobTitle_card1{
+  padding: 30px 40px 0;
+  background:azure;
+  border-radius: 15px;
+  padding: 20px 50px;
+  height:auto;
+  margin-top: 20px;
+}
+.AddDepartment_card1{
      padding: 30px 40px 0;
      background:azure;
      border-radius: 15px;
      padding: 20px 50px;
      height:auto;
      margin-top: 20px;
-     }
+}
+.Manager_card1{
+  padding: 30px 40px 0;
+  background:azure;
+  border-radius: 15px;
+  padding: 20px 50px;
+  height:auto;
+  margin-top: 20px;
+}
 
-     .table{
+.Department_table{
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      height:25px;
+      max-width: 100%;
+      margin-bottom: 1rem;
+      color: white;
+      background-color:black;
+    }
+.JobTitle_table{
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      height:25px;
+      max-width: 100%;
+      margin-bottom: 1rem;
+      color: white;
+      background-color:black;
+    }
+.Manager_table{
       display: block;
       width: 100%;
       overflow-x: auto;
@@ -152,7 +196,17 @@ background-blend-mode:darken;
       background-color:black;
     }
     
-.closeicon{
+.AddDepartment_closeicon{
+  float:right;
+  margin-top: -23px;
+  margin-right: 10px;
+}
+.AddJob_closeicon{
+  float:right;
+  margin-top: -23px;
+  margin-right: 10px;
+}
+.AddManager_closeicon{
   float:right;
   margin-top: -23px;
   margin-right: 10px;
@@ -182,14 +236,27 @@ background-blend-mode:darken;
         
      
      }
-     h5.title-font {
+.h5.Department_title-font {
       font-size: 16pt;
       line-height: 14pt;
       font-family: "DIN";
-      margin-bottom: 20px;}
+      margin-bottom: 20px;
+}
+.h5.JobTitle_title-font {
+  font-size: 16pt;
+  line-height: 14pt;
+  font-family: "DIN";
+  margin-bottom: 20px;
+}
+.h5.Manager_title-font {
+  font-size: 16pt;
+  line-height: 14pt;
+  font-family: "DIN";
+  margin-bottom: 20px;
+}
 
       
-     .row{
+.Department_row{
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -197,10 +264,27 @@ background-blend-mode:darken;
       flex-wrap: wrap;
       margin-right: -15px;
       margin-left: -15px;
-  }
-     
+}
+.JobTitle_row{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} 
+.Manager_row{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} 
 
-/* .col-12 {
+/* .Department_col-12 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -217,7 +301,7 @@ background-blend-mode:darken;
 }
 
 
-.primaryHeader {
+.AddDepartment_primaryHeader {
   background: #38d39f;
   color: #fff;
   font-size: 15pt;
@@ -229,7 +313,32 @@ background-blend-mode:darken;
   border-bottom: 5px solid #080005;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.AddJob_primaryHeader{
+  background: #38d39f;
+  color: #fff;
+  font-size: 15pt;
+  line-height: 24pt;
+  text-transform: uppercase;
+  text-align: center;
+  height: 50px;
+  padding: 5px;
+  border-bottom: 5px solid #080005;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
+}
+.AddManager_primaryHeader{
+  background: #38d39f;
+  color: #fff;
+  font-size: 15pt;
+  line-height: 24pt;
+  text-transform: uppercase;
+  text-align: center;
+  height: 50px;
+  padding: 5px;
+  border-bottom: 5px solid #080005;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
 
 
 /* home page csss */
@@ -251,7 +360,11 @@ background-blend-mode:darken;
    background-color:red;
  }
  
- .dialog_input{
+ .AddDepartment_dialog_input{
      width: 350px;
      margin-top: 100px;
  }
+ .JobTitle__dialog_input{
+  width: 350px;
+  margin-top: 100px;
+}

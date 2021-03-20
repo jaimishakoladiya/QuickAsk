@@ -7,10 +7,10 @@ const Step3 = () =>{
     return(
         <div className="step1">
             <div className="inputfield">
-                <PersonIcon className="material-person-icon" /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="First Name" />
-                <PersonIcon style={{ marginTop: '-13px', marginLeft: '30px', color: 'gray' }} /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="Last Name" />
-                <EmailIcon style={{ marginTop: '-13px', marginLeft: '30px', color: 'gray' }} /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="Email-Id" />
-                 <div className="Add"><Button variant="contained" color="secondary" >ADD button</Button></div>
+                <PersonIcon style={{ marginBottom:'5px', marginLeft: '60px',marginRight: '2px', color: 'gray' , fontSize:"22px"}}/><TextField style={{ width: '160px' }} id="standard-basic" placeholder="First Name" />
+                <PersonIcon style={{ marginBottom:'5px', marginLeft: '60px',marginRight: '2px', color: 'gray',fontSize:"22px" }} /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="Last Name" />
+                <EmailIcon style={{ marginBottom:'5px', marginLeft: '60px',marginRight: '2px', color: 'gray', fontSize:"22px" }} /><TextField style={{ width: '160px' }} id="standard-basic" placeholder="Email-Id" />
+                 <div className="Add"><Button variant="contained" color="secondary" >ADD </Button></div>
             </div>
         </div>
 

@@ -22,7 +22,7 @@ const CompanyInformation=()=> {
         <TextField style={field1} id="standard-basic" label="LastName" variant="standard" /><br></br><br></br>
 
         <TextField style={field}  id="standard-basic" label="CompanyName" variant="standard" />
-        <TextField style={field}  id="standard-basic" label="Comapny EmailId" variant="standard" />
+        <TextField style={field}  id="standard-basic" label="Comapany EmailId" variant="standard" />
 
         <FormControl style={field} >
         <InputLabel htmlFor="demo-customized-select-native">Country</InputLabel>
@@ -65,4 +65,5 @@ const CompanyInformation=()=> {
 }
 
 export default CompanyInformation
+
 

@@ -6,12 +6,12 @@ import AddManager from './addbuttons/AddManager'
 const Manager=()=> {
     return (
         <>
-              <div className="card1">
-        <h5 className="title-font">Manager</h5>
+              <div className="Manager_card1">
+        <h5 className="Manager_title-font">Manager</h5>
         
-        <div className="row">
-         <div className="col-12">
-           <div className="table">
+        <div className="Manager_row">
+         <div className="Manager_col-12">
+           <div className="Manager_table">
              <thead>
                <tr>
                <th style={{paddingLeft:"10px"}}>Name</th>
@@ -31,7 +31,7 @@ const Manager=()=> {
         </div>
         </div>
         </>
-    )
+    );
 }
 
 export default Manager
