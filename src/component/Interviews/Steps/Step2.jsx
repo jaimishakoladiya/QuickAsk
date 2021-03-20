@@ -1,12 +1,11 @@
 import React from "react";
 import TextField from "@material-ui/core/TextField";
+import MenuItem from "@material-ui/core/MenuItem";
 import PersonIcon from "@material-ui/icons/Person";
 import { makeStyles } from "@material-ui/core/styles";
-import Typography from "@material-ui/core/Typography";
-import Paper from "@material-ui/core/Paper";
-import Divider from "@material-ui/core/Divider";
+import Button from '@material-ui/core/Button';
 import Grid from "@material-ui/core/Grid";
-import EmailIcon from '@material-ui/icons/Email';
+
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -42,15 +41,27 @@ const Step2 = () => {
               />
             </Grid>
             <Grid item xs={4} sm={4} xl={4} md={4} className="d-flex">
-              <EmailIcon className="material-person-icon" />
-              <TextField
-                variant="filled"
-                id="outlined-basic"
-                placeholder="Manager Name"
-              />
+               <TextField 
+                id="standard-select-currency-native" 
+                select  style={{ width:"200px",marginTop:"5px"}}/>
             </Grid>
           </Grid>
-        </div>
+        </div><br></br>
+        <h4>Department</h4>
+        <Grid container spacing={2}>
+           <Grid item xs={4} sm={4} xl={4} md={4} className="d-flex">
+              <TextField  id="standard-select-currency-native" 
+                          select
+                          label="---Select Department---"
+                          style={{ width:"200px",marginTop:"5px"}}/>
+            </Grid>
+            <Grid item xs={4} sm={4} xl={4} md={4} className="d-flex">
+               <TextField  id="standard-select-currency-native" 
+                          select
+                          style={{ width:"200px",marginTop:"23px"}}/>
+            </Grid>
+          </Grid>
+          <div className="Add"><Button variant="contained" color="secondary" >ADD</Button></div>
       </div>
     </>
   );

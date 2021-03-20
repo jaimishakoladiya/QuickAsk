@@ -4,7 +4,7 @@ import '../Home/home.css'
 
 import img1 from '../img/About/Admininterview.png'
 
-import Home_second_com from './Home_second_com'
+import  SecondHomeComp from './SecondHomeComp'
 
 function Home() {
     return (
@@ -23,7 +23,7 @@ function Home() {
     
      
     
-    <Home_second_com/>
+    <SecondHomeComp/>
     
         </div><br></br><br></br><br></br>
 
