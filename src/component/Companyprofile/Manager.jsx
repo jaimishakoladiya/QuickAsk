@@ -25,10 +25,10 @@ const Manager=()=> {
              </thead>
            </div>
          </div>
-         </div>
+
          <AddManager/><br></br>
       
-
+        </div>
         </div>
         </>
     )
