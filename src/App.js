@@ -1,5 +1,5 @@
 
-import Home from './component/home/Home'
+import Home from './component/Home/Home'
 
 
 function App() {
