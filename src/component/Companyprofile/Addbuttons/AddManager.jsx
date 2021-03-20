@@ -41,9 +41,9 @@ TransitionComponent={Transition}
 fullWidth={true}
  maxWidth={maxWidth}>
 
-<div className="primaryHeader">
+<div className="AddManager_primaryHeader">
 <h2>Add Manager </h2>
-<div className="closeicon"><CloseIcon style={{color:'black'}} onClick={handleClose}/></div>
+<div className="AddManager_closeicon"><CloseIcon style={{color:'black'}} onClick={handleClose}/></div>
 
 </div>
 <DialogTitle id="form-dialog-title">

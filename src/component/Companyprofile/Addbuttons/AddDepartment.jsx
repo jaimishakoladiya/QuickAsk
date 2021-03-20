@@ -50,9 +50,9 @@ Open form dialog
         fullWidth={true}
         maxWidth="md"
       >
-        <div className="primaryHeader">
+        <div className="AddDepartment_primaryHeader">
           <h2>Add Job </h2>
-          <div className="closeicon">
+          <div className="AddDepartment_closeicon">
             <CloseIcon style={{ color: "black" }} onClick={handleClose} />
           </div>
         </div>
@@ -68,7 +68,7 @@ Open form dialog
               </Grid>
               <Grid item xs={6}>
                 <TextField
-                  className="dialog_input"
+                  className="AddDepartment_dialog_input"
                   style={{ marginTop: "-20px" }}
                   placeholder="Name"
                   id="standard-basic"
@@ -77,7 +77,7 @@ Open form dialog
               </Grid>
               <Grid item xs={6}>
                 <TextField
-                  className="dialog_input"
+                  className="AddDepartment_dialog_input"
                   style={{ marginTop: "-20px" }}
                   placeholder="Cost Center"
                   id="standard-basic"
@@ -91,7 +91,7 @@ Open form dialog
                 <h3 className="">Time Allocated</h3>
               </Grid>
               <Grid item xs={12}>
-                <div className="card1">
+                <div className="AddDepartment_card1">
                   <TextField
                     style={{ marginLeft: "10px", width: "600px" }}
                     id="standard-basic"
