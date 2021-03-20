@@ -48,15 +48,9 @@
   float: right;
 }
 
-<<<<<<< HEAD
-.home-border{
-    border-bottom:7px solid #38d39f ;
-    width:450px
-=======
 .home-border {
   border-bottom: 7px solid #38d39f;
   width: 450px;
->>>>>>> 15ce0973754c0e0b8315eb3c95af1c6af625de3f
 }
 .home-text {
   color: #000000;

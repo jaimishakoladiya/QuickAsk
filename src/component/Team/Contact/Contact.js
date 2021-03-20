@@ -1,5 +1,4 @@
 import React from 'react'
-<<<<<<< HEAD
 import img1 from '../contact/admin.png'
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
@@ -15,11 +14,6 @@ const Contact=()=>{
        
 
 
-=======
-import img1 from './admin.png'
-import './contact.css'
-function Contact() {
->>>>>>> 15ce0973754c0e0b8315eb3c95af1c6af625de3f
 return (
 <body className="contact-main">
 <div className="contact-container">

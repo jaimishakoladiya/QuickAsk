@@ -1,12 +1,6 @@
 import React from 'react'
-<<<<<<< HEAD
 import img1 from '../../img/inter.png'
 import img2 from '../../img/admin.png'
-=======
-import img1 from '../../img/About/inter.png'
-// import img2 from '../../img/About/admin.png'
-import img2 from '../../img/About/companyProfile.png'
->>>>>>> 15ce0973754c0e0b8315eb3c95af1c6af625de3f
 import './about.css'
 
 
