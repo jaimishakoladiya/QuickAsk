@@ -29,7 +29,7 @@ const Department=()=>
           <br/>
         </div>
         </>
-    )
+    );
 }
 
 export default Department

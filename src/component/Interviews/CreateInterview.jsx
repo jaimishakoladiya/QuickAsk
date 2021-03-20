@@ -11,6 +11,7 @@ import './Interviews.css'
 import Step1 from './Steps/Step1';
 import Step2 from './Steps/Step2';
 import Step3 from './Steps/Step3';
+import Step4 from './Steps/Step4';
 
 const useStyles = makeStyles((theme) => ({
 root: {
@@ -45,7 +46,7 @@ return <Step2/>
 case 2:
 return <Step3/>
 default:
-return 'Unknown step';
+return <Step4/>;
 }
 }
 

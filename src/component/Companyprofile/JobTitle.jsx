@@ -27,7 +27,7 @@ const JobTitle=()=> {
         </div>
       
         </>
-    )
+    );
 }
 
 export default JobTitle
