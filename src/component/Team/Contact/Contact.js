@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../Contact/admin.png'
-import '../Contact/contact.css'
+import img1 from './admin.png'
+import './contact.css'
 function Contact() {
 return (
 <body className="main">
