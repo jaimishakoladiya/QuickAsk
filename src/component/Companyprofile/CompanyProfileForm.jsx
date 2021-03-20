@@ -5,7 +5,7 @@ import JobTitle from './JobTitle'
 import Manager from './Manager'
 import  '../Companyprofile/Company.css';
 
-const CompanyProfileForm=()=> {
+const CompanyProfileForm = () => {
     return (
         <>
          <div className="CompanyProfileForm_card0">
