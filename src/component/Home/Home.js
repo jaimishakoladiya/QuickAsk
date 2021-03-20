@@ -12,10 +12,10 @@ function Home() {
         <div className="header"></div>
         <div className="headtitle">
         <h3 className="home-title">WE</h3>
-        <h3 className="home-title" >ON-SCREEN</h3>
-     <h3  className="home-title">INTERVIEWERS</h3>
+        <h3 className="home-title" >PRE-SCREEN</h3>
+     <h3 className="home-title">INTERVIEWERS</h3>
 
-     <h4 style={{fontStyle:"-moz-initial",fontSize:"25px"}}> so you don't have to worry</h4><br></br>
+     <h4 style={{fontStyle:"-moz-initial",fontSize:"25px"}}> so you don't have to worry about it</h4>
 
      <div className="home-border"></div><br></br>
 
