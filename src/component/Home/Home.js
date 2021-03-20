@@ -5,6 +5,7 @@ import '../Home/home.css'
 import img1 from '../img/About/Admininterview.png'
 
 import  SecondHomeComp from './SecondHomeComp'
+import FouthHomeComp from './FouthHomeComp';
 
 function Home() {
     return (
@@ -36,7 +37,7 @@ The Wrong Candidates, We’ll On-Screen For You So
 You Can Spend Your Time On Other Endeavors.</h4>
      </div>
         </div>
-   
+   <FouthHomeComp/>
         </>
     )
 }

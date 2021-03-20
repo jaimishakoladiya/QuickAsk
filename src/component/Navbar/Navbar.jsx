@@ -7,8 +7,7 @@ function Navbarmenu(props) {
   const [isMenu, setisMenu] = useState(false);
   
   const toggleClass = () => {
-    setisMenu(isMenu === false ? true : false);
-    setSubMenu(false);
+   
   };
  
   let boxClass = ["layout__menuitems layout__hidemenu "];
@@ -50,7 +49,7 @@ return(
           <NavLink exact activeClassName='is-active' to="/Blog"  className={isSubMenu === true ? 'is-active' : null}>
           Team<ArrowDropDownIcon style={{fontSize:"35px",marginBottom:"-10px"}}/> </NavLink>
           <ul className="sub-menu" >
-            <li><NavLink  exact activeClassName='is-active' to="/Latest" onClick={toggleClass}> AboutUS </NavLink></li>
+            <li><NavLink  exact activeClassName='is-active' to="/About" onClick={toggleClass}> About </NavLink></li>
             <li><NavLink  exact activeClassName='is-active' to="/Oldest" onClick={toggleClass}> Contact Us </NavLink></li>
           </ul>
         </li>
