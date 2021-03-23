@@ -13,6 +13,7 @@ import Step2 from './Steps/Step2';
 import Step3 from './Steps/Step3';
 import Step4 from './Steps/Step4';
 
+const CreateInterview = ()=> {
 const useStyles = makeStyles((theme) => ({
 root: {
 width: '100%',
@@ -50,7 +51,7 @@ return <Step4/>;
 }
 }
 
-export default function CreateInterview() {
+ 
 const classes = useStyles();
 const [activeStep, setActiveStep] = React.useState(0);
 const steps = getSteps();
@@ -95,7 +96,7 @@ color="primary"
 onClick={handleNext}
 className={classes.button}
 >
-{activeStep === steps.length - 1 ? 'Finish' : 'Next'}
+{activeStep === steps.length - 1 ? 'submit' : 'Next'}
 </Button>
 </div>
 </div>
@@ -105,13 +106,11 @@ className={classes.button}
 </Stepper>
 {activeStep === steps.length && (
 <Paper square elevation={0} className={classes.resetContainer}>
-<Typography>All steps completed - you&apos;re finished</Typography>
-<Button onClick={handleReset} className={classes.button}>
-Reset
-</Button>
+ 
 </Paper>
 )}
 </div>
 </div>
 );
 }
+export default CreateInterview

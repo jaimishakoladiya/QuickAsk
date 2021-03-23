@@ -1,4 +1,5 @@
-import react from 'react';
+import react, { useState } from 'react';
+// import Select from 'react-select';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
 import Table from '@material-ui/core/Table';
@@ -7,17 +8,32 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
 import './Interviews.css';
+import CreateInterview from './CreateInterview';
 const CandidateDetails = () =>{
   const style={
     fontSize : "17px",
     fontWeight:"bold"
     
   }
-    return(
+   const [open ,SetOpen] = useState(false);
+   const OpenBox =()=>{
+          if(open==false){
+            SetOpen(true);
+          }
+          else{
+            SetOpen(false);
+          }
+   }
+return(
+     
         <>
-        <div className="btn"><Button   variant="contained" color="secondary" >
+        <div className="btn"><Button onClick = {OpenBox} variant="contained" color="secondary" >
         Create Interview
-        </Button></div>
+        </Button></div><br></br>
+        {open==true?
+          <CreateInterview/>
+        :null}
+        <br></br>
         <div className="comdata">
         <div className="header1">
            <h4>ALLCANDIDATES</h4>

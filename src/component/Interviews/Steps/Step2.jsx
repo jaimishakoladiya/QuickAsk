@@ -58,7 +58,8 @@ const Step2 = () => {
             <Grid item xs={4} sm={4} xl={4} md={4} className="d-flex">
                <TextField  id="standard-select-currency-native" 
                           select
-                          style={{ width:"200px",marginTop:"23px"}}/>
+                          label="--Select Job title--"
+                          style={{ width:"200px",marginTop:"5px"}}/>
             </Grid>
           </Grid>
           <div className="Add"><Button variant="contained" color="secondary" >ADD</Button></div>
