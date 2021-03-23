@@ -11,8 +11,7 @@ const Contact=()=>{
         marginTop:"20px",
     width:600,
         }
-       
-
+    
 
 return (
 <body className="contact-main">
