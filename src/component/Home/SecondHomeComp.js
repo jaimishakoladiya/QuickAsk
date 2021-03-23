@@ -1,14 +1,15 @@
 import React from 'react'
 import Grid from '@material-ui/core/Grid';
-import img2 from '../img/About/homeinter.png'
+import img1 from '../img/homeinter.png'
 
 function SecondHomeComp() {
     return (
         <>
+        <div className="home-start">
             <Grid container spacing={0}>
                
                     <Grid item xs>
-                        <img style={{ height: "400px", width: "500px" }} src={img2}></img>
+                        <img style={{ height: "400px", width: "500px" }} src={img1}></img>
                     </Grid>
                     <Grid item xs>
                     <p className="home-text">
@@ -33,7 +34,7 @@ function SecondHomeComp() {
                         </p>
                     </Grid>
                 </Grid>
-           
+                </div>
         </>
     )
 }

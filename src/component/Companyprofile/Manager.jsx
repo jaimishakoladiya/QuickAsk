@@ -8,28 +8,32 @@ const Manager=()=> {
         <>
               <div className="Manager_card1">
         <h5 className="Manager_title-font">Manager</h5>
+      
+          
         
-        <div className="Manager_row">
-         <div className="Manager_col-12">
-           <div className="Manager_table">
-             <thead>
+             <table>
+            
                <tr>
-               <th style={{paddingLeft:"10px"}}>Name</th>
-               <th style={{paddingLeft:"134px"}}>Email</th>
-               <th style={{paddingLeft:"134px"}}>Status</th>
-               <th style={{paddingLeft:"134px"}}>Date</th>
-               <th style={{paddingLeft:"134px"}}>Deleted</th>
-               <th style={{paddingLeft:"114px"}}>Actions</th>
+               <th>Name</th>
+               <th >Email</th>
+               <th>Status</th>
+               <th>Date</th>
+               <th>Deleted</th>
+               <th>Actions</th>
                </tr>
-              
-             </thead>
-           </div>
+            
+              <tr>
+                <td>hey</td>
+              </tr>
+               </table>
+            
+          
+           <br></br><AddManager/><br></br>
          </div>
 
-         <AddManager/><br></br>
+         
       
-        </div>
-        </div>
+       
         </>
     );
 }

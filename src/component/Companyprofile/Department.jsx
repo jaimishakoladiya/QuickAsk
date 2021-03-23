@@ -9,24 +9,24 @@ const Department=()=>
         <div className="Department_card1">
           <h5 className="Department_title-font">Department</h5>
           
-         <div className="Department_row">
-         <div className="Department_col-12">
-           <div className="Department_table">
-           <table>
-             <thead>
-               <tr>
-               <th style={{paddingLeft:"10px"}}>Name</th>
-               <th style={{paddingLeft:"349px"}}>Cost Center</th>
-               <th style={{paddingLeft:"349px"}}>Actions</th>
-                </tr>
-               
-             </thead>
-             </table>
-           </div>
-         </div>
-         </div>
-         <AddDepartment/>
-          <br/>
+         <table>
+           <tr>
+           <th>Name</th>
+           <th>Cost center</th>
+           <th>Action</th>
+           </tr>
+
+           <tr>
+             <td>kuku</td>
+             <td>bhaw</td>
+             <td>minu</td>
+           </tr>
+
+       
+         </table>
+          
+        <br></br> <AddDepartment/><br></br>
+        
         </div>
         </>
     );

@@ -64,7 +64,7 @@ background-blend-mode:darken;
       width: 1050px;
      margin-top: -14px;
       overflow: hidden;
-      background-color:#63c1c5;
+      background-color:#008b8b;
       font-family: 'Dancing Script', cursive;
       justify-content: center;
       align-items: center;
@@ -96,22 +96,12 @@ background-blend-mode:darken;
      font-size:x-large;
    } */
 
-   .comdata{
-    margin: 20px auto;
-     margin-bottom: 100px;
-    margin-top: 50px; 
-    /* justify-content: center; */
-    padding: 15px 5px 10px 15px;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0,1);
-    background-color:whitesmoke;
-    width: 1050px;
-    height: 1050px;
-    border-radius: 1px;
-    box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
-    }
+   
 .CompanyProfileForm_company-info-title{
         font-size:30px;
         font-family: 'DIN';
+        color: white;
+        line-height: 50px;
     }
  
 .CompanyProfileForm_card0{
@@ -132,22 +122,21 @@ background-blend-mode:darken;
  
      }
      /* department,manager,job box */
-.Department_card1{
+.Department_card1,
+.Manager_card1,
+.JobTitle_card1{
       padding: 30px 40px 0;
-      background:azure;
+      background:rgb(249, 255, 255);
       border-radius: 15px;
       padding: 20px 50px;
       height:auto;
       margin-top: 20px;
+      box-shadow: -2px 13px 10px -15px darkgray;
+      
  }
- .JobTitle_card1{
-  padding: 30px 40px 0;
-  background:azure;
-  border-radius: 15px;
-  padding: 20px 50px;
-  height:auto;
-  margin-top: 20px;
-}
+ 
+
+
 .AddDepartment_card1{
      padding: 30px 40px 0;
      background:azure;
@@ -156,45 +145,30 @@ background-blend-mode:darken;
      height:auto;
      margin-top: 20px;
 }
-.Manager_card1{
-  padding: 30px 40px 0;
-  background:azure;
-  border-radius: 15px;
-  padding: 20px 50px;
-  height:auto;
-  margin-top: 20px;
-}
 
-.Department_table{
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-      height:25px;
-      max-width: 100%;
-      margin-bottom: 1rem;
-      color: white;
-      background-color:black;
-    }
-.JobTitle_table{
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-      height:25px;
-      max-width: 100%;
-      margin-bottom: 1rem;
-      color: white;
-      background-color:black;
-    }
-.Manager_table{
-      display: block;
-      width: 100%;
-      overflow-x: auto;
-      height:25px;
-      max-width: 100%;
-      margin-bottom: 1rem;
-      color: white;
-      background-color:black;
-    }
+  /* all table head row css */
+
+  table{
+    border-collapse: collapse;
+    width:100%;
+  }
+  th
+  {
+    text-align: left;
+    padding: 8px;
+    background-color:rgb(245, 202, 92);
+ 
+  }
+  td{
+    text-align: left;
+    padding: 8px;
+
+  }
+  tr:nth-child(even){
+    background-color:rgb(217, 232, 236)
+  }
+
+    /* ======================= */
     
 .AddDepartment_closeicon{
   float:right;
@@ -218,78 +192,38 @@ background-blend-mode:darken;
 
      /* //about page */
 
-     .title{
-      margin-top: 40px;
-       margin-left: 50px;
-     }
-
-     .ttline{
-    
-      
-        left: 0;
-        bottom: 0;
-        height:10px;
-        width: 30%;
-        background-color:black;
-        margin-bottom: 360px;
-        margin-left: 50px;
-        
      
-     }
-.h5.Department_title-font {
+.Department_title-font ,
+.JobTitle_title-font,
+.Manager_title-font{
       font-size: 16pt;
       line-height: 14pt;
       font-family: "DIN";
       margin-bottom: 20px;
 }
-.h5.JobTitle_title-font {
-  font-size: 16pt;
-  line-height: 14pt;
-  font-family: "DIN";
-  margin-bottom: 20px;
-}
-.h5.Manager_title-font {
-  font-size: 16pt;
-  line-height: 14pt;
-  font-family: "DIN";
-  margin-bottom: 20px;
-}
+
 
       
-.Department_row{
+.Department_row,
+.Manager_row,
+.JobTitle_row{
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-wrap: wrap;
       flex-wrap: wrap;
       margin-right: -15px;
+     
       margin-left: -15px;
 }
-.JobTitle_row{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-} 
-.Manager_row{
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-} 
 
-/* .Department_col-12 {
+
+.Department_col-12 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
-} */
+}
 
 
 
@@ -301,8 +235,11 @@ background-blend-mode:darken;
 }
 
 
-.AddDepartment_primaryHeader {
-  background: #38d39f;
+
+.AddDepartment_primaryHeader ,
+.AddManager_primaryHeader,
+.AddJob_primaryHeader{
+  background: #008b8b;
   color: #fff;
   font-size: 15pt;
   line-height: 24pt;
@@ -313,52 +250,11 @@ background-blend-mode:darken;
   border-bottom: 5px solid #080005;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.AddJob_primaryHeader{
-  background: #38d39f;
-  color: #fff;
-  font-size: 15pt;
-  line-height: 24pt;
-  text-transform: uppercase;
-  text-align: center;
-  height: 50px;
-  padding: 5px;
-  border-bottom: 5px solid #080005;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
-}
-.AddManager_primaryHeader{
-  background: #38d39f;
-  color: #fff;
-  font-size: 15pt;
-  line-height: 24pt;
-  text-transform: uppercase;
-  text-align: center;
-  height: 50px;
-  padding: 5px;
-  border-bottom: 5px solid #080005;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
-}
 
 
-/* home page csss */
 
-.headtitle{
-  margin-top: 50px;
-   margin-left: 280px;
 
-  
-  
- }
 
- .freebutton
- {
-   height:60px;
-   width:200px;
-   font-size:35px;
-   font-display: center;
-   background-color:red;
- }
  
  .AddDepartment_dialog_input{
      width: 350px;

@@ -1,5 +1,5 @@
 import React from 'react'
-import CompanyInformation from './CompanyInformation'
+import CompanyFields from './CompanyFields'
 import Department from './Department'
 import JobTitle from './JobTitle'
 import Manager from './Manager'
@@ -12,7 +12,7 @@ const CompanyProfileForm = () => {
         <div className="CompanyProfileForm_formheader">
         <h4 className="CompanyProfileForm_company-info-title">Comapany Information</h4>
         </div>
-        <CompanyInformation />
+        <CompanyFields />
         <Department />
         <Manager />
         <JobTitle />

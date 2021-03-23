@@ -7,23 +7,25 @@ const JobTitle=()=> {
         <>
               <div className="JobTitle_card1">
           <h5 className="JobTitle_title-font">Job Title</h5>
-          
-         <div className="JobTitle_row">
-         <div className="JobTitle_col-12">
-           <div className="JobTitle_table">
-             <thead>
-               <tr>
-               <th style={{paddingLeft:"10px"}}>Name</th>
-               <th style={{paddingLeft:"347px"}}>Department</th>
-               <th style={{paddingLeft:"347px"}}>Actions</th>
-               </tr>
-             </thead>
-           </div>
-         </div>
-         </div>
-         <AddJob/>
+          <table>
+           <tr>
+           <th>Name</th>
+           <th>Depatment</th>
+           <th>Action</th>
+           </tr>
 
-         <br/>
+           <tr>
+             <td>kuku</td>
+             <td>bhaw</td>
+             <td>minu</td>
+           </tr>
+
+           
+         </table>
+         
+        <br></br> <AddJob/><br></br>
+
+        
         </div>
       
         </>

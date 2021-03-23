@@ -34,7 +34,7 @@
   margin: -17px;
   margin-top: 15px;
   color: rgb(8, 8, 8);
-  background-color: rgb(207, 147, 147);
+  background-color: rgb(114, 198, 231);
 }
 
 .page {
@@ -44,7 +44,7 @@
   padding: 15px 5px 10px 15px;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: whitesmoke;
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+  box-shadow: 0 12px 15px 0 rgba(19, 35, 177, 0.116),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   width: 21.25%;
   border-radius: 12px;

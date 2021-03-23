@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import img1 from '../contact/admin.png'
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
